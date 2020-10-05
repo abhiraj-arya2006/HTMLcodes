@@ -1,0 +1,65 @@
+.sports {
+  background-color: rgb(230, 108, 8);
+  color: white;
+  text-align: center;
+  line-height: 2;
+  font-family: "Bangers", cursive;
+  font-size: 1cm;
+  letter-spacing: 2.5px;
+}
+#five {
+  color: mediumvioletred;
+}
+.linktocb {
+  text-decoration: none;
+  font-size: 20px;
+}
+.football h2 {
+  font-size: 1cm;
+  color: deeppink;
+  text-decoration: underline;
+}
+.football p {
+  letter-spacing: 4px;
+  text-indent: 100px;
+}
+.cricket h2 {
+  font-size: 1cm;
+  color: darkslateblue;
+  text-align: right;
+  text-decoration: overline;
+}
+.cricket p {
+  text-align: right;
+  line-height: 30px;
+  word-spacing: 5.5px;
+  color: blue;
+}
+.tt h2 {
+  text-align: center;
+  color: white;
+  background-color: green;
+  line-height: 1cm;
+  text-decoration: underline;
+  font-size: 40px;
+}
+.tt p {
+  text-decoration: line-through;
+}
+#six {
+  text-decoration: none;
+  direction: rtl;
+  unicode-bidi: bidi-override;
+}
+.badminton h2 {
+  color: indigo;
+  font-size: 40px;
+  text-decoration: underline;
+}
+.badminton p {
+  color: orangered;
+}
+.badminton #ten {
+  color: midnightblue;
+  line-height: 0.75cm;
+}
