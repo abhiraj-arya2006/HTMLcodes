@@ -1,0 +1,50 @@
+.image {
+  margin: 0 auto;
+  display: block;
+  border-radius: 10px;
+  border-width: 15px;
+  border-color: purple;
+  border-style: dashed;
+}
+.image2 {
+  margin: 0 auto;
+  display: block;
+  border-radius: 10px;
+  border-width: 15px;
+  border-color: orangered;
+  border-style: solid;
+}
+#one {
+  text-align: center;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  margin-left: 25px;
+  margin-right: 25px;
+  background-color: black;
+  color: white;
+  font-size: 40px;
+  padding-bottom: 10px;
+  padding-top: 10px;
+}
+.three {
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+  background-color: orange;
+  font-size: 30px;
+  padding-bottom: 10px;
+  padding-top: 10px;
+  margin-left: 25px;
+  margin-right: 25px;
+}
+.four {
+  font-weight: bolder;
+  text-align: center;
+  font-size: 15px;
+  background-image: url();
+  padding-top: 10px;
+  padding-bottom: 10px;
+  color: darkslateblue;
+}
+.body {
+  background-image: url(https://previews.123rf.com/images/valeriyador/valeriyador1806/valeriyador180600638/103434742-color-abstract-blurred-backgrounds-with-defocused-lights-colorful-bokeh-light-background-vector-illu.jpg);
+  background-repeat: repeat;
+}
