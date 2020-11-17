@@ -1,0 +1,75 @@
+body {
+  text-align: center;
+  margin: 0px;
+}
+.lab {
+  color: white;
+  background-color: black;
+  font-size: 45px;
+  position: fixed;
+  top: 0px;
+  width: 100%;
+  z-index: 2;
+}
+.header {
+  background-image: url(https://image.shutterstock.com/image-photo/groups-dogs-labrador-puppies-puppy-260nw-1212827962.jpg);
+  height: 350px;
+}
+.wiki {
+  font-size: 75px;
+  position: relative;
+  top: 100px;
+  font-family: "Times New Roman", Times, serif;
+  color: red;
+}
+.about {
+  background-color: maroon;
+  padding-right: 40px;
+}
+.about .heading {
+  font-size: 40px;
+  background-color: blue;
+  font-weight: 900;
+  position: sticky;
+  top: 40px;
+  z-index: 1;
+}
+.about .descrip {
+  color: lime;
+  font-size: 25px;
+  font-weight: 700;
+}
+.one {
+  background-color: peru;
+}
+.one .heading {
+  font-size: 40px;
+  background-color: pink;
+  font-weight: 900;
+  position: sticky;
+  top: 40px;
+}
+.one .descrip {
+  color: white;
+  font-size: 25px;
+  font-weight: 700;
+}
+.two button {
+  height: 40px;
+  width: 150px;
+  background-color: peru;
+  font-size: 25px;
+  position: fixed;
+  bottom: 35px;
+  right: 125px;
+  border-color: black;
+}
+.three button {
+  font-size: 50px;
+  background-color: transparent;
+  border-color: transparent;
+  position: fixed;
+  bottom: 25px;
+  right: 40px;
+  z-index: 3;
+}
