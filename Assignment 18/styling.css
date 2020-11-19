@@ -1,0 +1,47 @@
+.one {
+  height: 900px;
+  width: 1200px;
+  background-color: coral;
+  margin: 45px;
+  box-shadow: 15px 15px 5px blue;
+  transition: 1s;
+  transition-property: background-color;
+}
+.one:hover {
+  background-color: crimson;
+  transform: translate(-15px, -15px);
+  transition: 1.5s;
+  transition-timing-function: ease-in-out;
+  box-shadow: 20px 20px 10px blue;
+}
+.one:active {
+  transform: translate(20px, 20px);
+  box-shadow: 7px 7px 3px blue;
+  transition: 0.5s;
+}
+.two {
+  text-align: center;
+  width: 1200px;
+  height: 200px;
+  background-color: lime;
+  font-size: 30px;
+  left: 0px;
+  top: 0px;
+  transition-property: height width background-color font-size left top
+    transfrom;
+  transition-duration: 2000ms;
+  transition-timing-function: ease-in-out;
+}
+.two:hover {
+  width: 175px;
+  height: 175px;
+  background-color: blue;
+  font-size: 20px;
+  left: 600px;
+  top: 500px;
+  position: absolute;
+  transition-property: height width background-color font-size left top
+    transfrom;
+  transition-duration: 2000ms;
+  transition-timing-function: ease-in-out;
+}
