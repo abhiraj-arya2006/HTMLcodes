@@ -1,0 +1,38 @@
+.one {
+  color: cyan;
+  margin-left: 55px;
+  font-size: 70px;
+}
+body {
+  background-color: black;
+}
+div.btn {
+  background-color: lightcoral;
+  width: 240px;
+  margin: 50px;
+  padding: 50px;
+  font-size: 40px;
+  border-radius: 15px;
+  color: darkblue;
+  font-weight: 800;
+  box-shadow: 20px 20px 20px grey;
+  transition: 0.75s;
+}
+div.btn:hover {
+  transform: translate(-10px, -10px);
+  box-shadow: 40px 40px 40px grey;
+  transition: 0.5s;
+}
+div.btn:active {
+  transform: translate(-5px, -5px);
+  box-shadow: 10px 10px 10px grey;
+  transition: 0.5s;
+}
+div.card {
+  color: darkblue;
+  font-weight: 800;
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+div.three {
+  background-color: lightgreen;
+}
